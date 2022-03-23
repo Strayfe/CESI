@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F7615562-2B34-4BE7-842A-1ED3A0DEE6BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{252692CF-09C4-42EB-B635-77F757E3BC94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CESI.Tests", "test\CESI.Tests\CESI.Tests.csproj", "{417660B3-5A1A-4ACF-A2CF-F90237297CE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CESI", "src\CESI\CESI.csproj", "{C0D2BC6F-ABC9-4817-937A-A5356237FDE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{417660B3-5A1A-4ACF-A2CF-F90237297CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{417660B3-5A1A-4ACF-A2CF-F90237297CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{417660B3-5A1A-4ACF-A2CF-F90237297CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{417660B3-5A1A-4ACF-A2CF-F90237297CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0D2BC6F-ABC9-4817-937A-A5356237FDE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D2BC6F-ABC9-4817-937A-A5356237FDE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D2BC6F-ABC9-4817-937A-A5356237FDE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D2BC6F-ABC9-4817-937A-A5356237FDE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{417660B3-5A1A-4ACF-A2CF-F90237297CE1} = {252692CF-09C4-42EB-B635-77F757E3BC94}
+		{C0D2BC6F-ABC9-4817-937A-A5356237FDE3} = {F7615562-2B34-4BE7-842A-1ED3A0DEE6BA}
+	EndGlobalSection
+EndGlobal
